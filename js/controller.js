@@ -463,7 +463,7 @@ function blueborder() {
   });
 }
 function takeInfoObj(email, i,name,nameuser) {
-document.getElementById("is-primary").style.display =""
+
 document.getElementById("avatarcruser").innerHTML = auth.currentUser.displayName.charAt(0)
 document.getElementById("avataruser").innerHTML = name
 document.getElementById("vauser").innerHTML = nameuser
@@ -530,7 +530,7 @@ function okchat() {
  }
 }
 function arowleft() {
-  document.getElementById("is-primary").style.display ="none"
+
   document.getElementById("table1").style.display ="none"
   document.getElementById("divlistban").style.display =""
 
@@ -543,7 +543,7 @@ function tranform() {
   if (Number(localStorage.getItem("width")) < 800 ) {
     console.log(1);
     document.getElementById("spaceChat1").setAttribute("style","padding-bottom:40px")
-    document.getElementById("spaceChat1").lastElementChild.setAttribute("style","margin-bottom:40px")
+    document.getElementById("spaceChat1").lastElementChild.setAttribute("style","margin-bottom:45px")
   }
   let listChat = document.getElementById("spaceChat1");
   listChat.scrollTop = listChat.scrollHeight;

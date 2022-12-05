@@ -167,7 +167,7 @@ conponent.wellcomePage = `
            <div style="margin-left:170px" id="headAddi" onclick="offTableInfo()"></div>
            </div>
            <div style="position: relative; display: table; margin: auto;" ><img style=" width: 360px;height: 130px;object-fit: cover;" src="./imge/default.jpg" alt=""></div>
-          <div style="width:100px;margin-left:40px;margin-top:-30px;z-index: 5;"><div class="avatar" id="yourselfidname1" style="width:60px;border: 2px solid #fff;height:60px;line-height: 2.4;"></div></div>
+          <div style="width:100px;margin-left:40px;margin-top:-30px;z-index: 1;"><div class="avatar" id="yourselfidname1" style="width:60px;border: 2px solid #fff;height:60px;line-height: 2.4;"></div></div>
           <div id="yourselfname1" style="font-weight: 500;margin-left:5px"></div>
           <div style="margin-top:20px;font-weight: 500;margin-left:-200px">Thông tin cá nhân</div>
           <div style="display:flex">

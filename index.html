@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zalo Wed</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@0.20.0/dist/axios.min.js"></script>
-    <script src="https://cdn.stringee.com/sdk/web/2.2.1/stringee-web-sdk.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
     <!-- CSS only -->
@@ -121,36 +119,9 @@
     </div>
     
 
-    <div class="container as-text-centered" v-cloak id="app">
 
 
-      <div>
-        <button style="position:fixed ;z-index: 1;top: 20px;left: 50%;display: none;" id="is-primary" class="button is-primary" v-if="!room" @click="createRoom">
-          <i class="fa-solid fa-video"></i>
-        </button>
 
-        <button style="display: none;" class="button is-info" v-if="!room" @click="joinWithId">
-          Join Meeting
-        </button>
-
-        <button style="display: none;" class="button is-info" v-if="room" @click="publish(true)">
-          Share Desktop
-        </button>
-      </div>
-
-      <div style="display: none;" v-if="roomId" class="info">
-        <p>Bạn đang ở trong room <strong>{{roomId}}</strong>.</p>
-        <p>
-          Gửi link này cho bạn bè cùng join room nhé
-          <a v-bind:href="roomUrl" target="_blank">{{roomUrl}}</a>.
-        </p>
-        <p>Hoặc bạn cũng có thể copy <code>{{roomId}}</code> để share.</p>
-      </div>
-    </div>
-
-    <div style="height:100vh ;" class="container">
-      <div  id="videos"></div>
-    </div>
 
   </body>
 
@@ -163,8 +134,8 @@
   <script src="./js/index.js"></script>
   <script src="./js/view.js"></script>
   <script src="./css/index2.js"></script>
-  <script src="./js/app.js"></script>
-  <script src="./js/script.js"></script>
+  <!-- <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script> -->
 
   <script>
     function toast({ title = "", message = "", type = "", duration = 3000 }) {

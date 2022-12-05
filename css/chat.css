@@ -472,10 +472,11 @@ border-radius: 5px;
     height: 3vh;
 }
 .friend{
-    display: flex;
+    display: flex !important;
     min-height: 73px;
     padding-left: 10px;
     width: 100%;
+    
 }
 .friend:hover{
       background-color: rgba(211, 211, 211, 0.3);  
@@ -518,6 +519,7 @@ border-radius: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 6;
 }
 .modal__inner input{
     height: 54px;
@@ -726,6 +728,31 @@ border-radius: 5px;
 
 
 
+}
+@media only screen and (max-width:1694px){
+    #spaceChat{
+        width: 78.5%;
+    }
+    
+}
+@media only screen and (max-width:1628px){
+    #spaceChat{
+        width: 77.5%;
+    }
+}
+@media only screen and (max-width:1687px){
+    #spaceChat{
+        width: 77%;
+    }
+}
+@media only screen and (max-width:1555px){
+    #spaceChat{
+        width: 76.5%;
+    }
+}@media only screen and (max-width:16px){
+    #spaceChat{
+        width: 77%;
+    }
 }
 @media only screen and (max-width:1280px){
     #yourself{
