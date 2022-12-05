@@ -143,7 +143,7 @@
     min-width: 344px;
     height: 100vh;
     animation: smooth linear 0.3s;
-    display: block;
+    display: block ;
 
 }
 
@@ -970,6 +970,14 @@ border-radius: 5px;
 
 }
  @media only screen and (max-width:912px) {
+
+.friend {
+    display: flex;
+    min-height: 73px;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+}
     #textgtduoi{
         font-size: smaller;
     }
@@ -1105,7 +1113,7 @@ border-radius: 5px;
     }
  
     .bonl{
-        border-bottom: 0.5px solid lightgray;
+        border-bottom: 0.8px solid lightgray;
     }
 
     #valueInputForm i {
