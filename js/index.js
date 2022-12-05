@@ -7,7 +7,7 @@ window.onload = () => {
     if (user && localStorage.getItem("signin") == "id") {
       
       view.setScreenActive("wellcomePage");
-      
+      loadinglogin()
       document.getElementById("yourself").style.display = "none"
       model.getChat()
       localStorage.setItem("bothEmail","loichaocuazalo")

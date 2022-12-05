@@ -4,6 +4,48 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
+#bangxinchao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+    width: 362px;
+    height: 255px;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 7px 4px 3px lightgray;
+    background-color: #fff;
+}
+#mauxinh img{
+    height: 64px;
+}
+#avatarboth{
+   position: relative;
+   margin-top: -50px;
+   margin-bottom:20px ;
+}
+#banvauser{
+    font-weight: 600;
+    margin-top: 14px;
+    font-size: 1rem;
+}
+#textgt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+#iconhello img{
+    width: 85px;
+    height: 85px;
+    margin: 0 10px;
+    cursor: pointer;
+}
 
 #arowleft{
     display: none;
@@ -928,6 +970,51 @@ border-radius: 5px;
 
 }
  @media only screen and (max-width:912px) {
+    #textgtduoi{
+        font-size: smaller;
+    }
+    #bangxinchao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid black;
+        width: 300px;
+        height: 255px;
+        margin: auto auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 6px 7px 4px 3px lightgray;
+        background-color: #fff;
+    }
+    #mauxinh img{
+        height: 64px;
+    }
+    #avatarboth{
+       position: relative;
+       margin-top: -50px;
+       margin-bottom:20px ;
+    }
+    #banvauser{
+        font-weight: 600;
+        margin-top: 14px;
+        font-size: 1rem;
+    }
+    #textgt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    #iconhello img{
+        width: 85px;
+        height: 85px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
     #listRecommet {
         height: 215px;
     }
@@ -2185,48 +2272,7 @@ color:gray;
     
     
 }
-#bangxinchao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 0.5px solid black;
-    width: 362px;
-    height: 255px;
-    margin: auto auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 6px 7px 4px 3px lightgray;
-    background-color: #fff;
-}
-#mauxinh img{
-    height: 64px;
-}
-#avatarboth{
-   position: relative;
-   margin-top: -50px;
-   margin-bottom:20px ;
-}
-#banvauser{
-    font-weight: 600;
-    margin-top: 14px;
-    font-size: 1rem;
-}
-#textgt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -30px;
-    margin-bottom: 10px;
-}
-#iconhello img{
-    width: 85px;
-    height: 85px;
-    margin: 0 10px;
-    cursor: pointer;
-}
+
 
  
  

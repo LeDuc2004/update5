@@ -217,7 +217,7 @@ conponent.wellcomePage = `
           
           <div id="textgt" >
             <div id="banvauser" style="display:flex ;">Bạn và <div id="vauser" style="margin: 0 4px;"></div>đã trở thành bạn bè</div>
-            <div style="color:gray ;margin-top: 5px;">Chọn một sticker dưới đây để bắt đầu trò chuyện</div>
+            <div id="textgtduoi" style="color:gray ;margin-top: 5px;">Chọn một sticker dưới đây để bắt đầu trò chuyện</div>
           </div>
           
           <div id="iconhello" style="display:flex ;">
