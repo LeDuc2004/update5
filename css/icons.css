@@ -1,0 +1,44 @@
+
+ #icon2004{
+min-height: 90%;
+display: flex;
+flex-wrap: wrap; 
+border-top:2px solid lightgray ;
+width: 100%;
+ }
+ .icon{
+  width: 17%;
+  height: 40px;
+  text-align: center;
+  margin-left: 8px;
+  font-size: 30px;
+  user-select: none;
+ }
+ .icon:hover{
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ #tableIcon{
+  background-color: #fff;
+  z-index: 2;
+  border-left: 1px solid lightgray;
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  right: 32px;
+  bottom: 50px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
+ }
+ .emotion{
+  height: 10%;
+  font-weight: 900;
+  font-size: 30px;
+  
+ 
+ }

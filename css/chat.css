@@ -1,0 +1,2235 @@
+*{
+    font-family: SegoeuiPc,Segoe UI,San Francisco,Helvetica Neue,Helvetica,Lucida Grande,Roboto,Ubuntu,Tahoma,Microsoft Sans Serif,Arial,sans-serif;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#arowleft{
+    display: none;
+}
+#webchat{
+    
+    margin:0;
+    display: flex;
+    
+    
+    
+} 
+
+#divthongtin{ 
+    background-color: #0091ff;
+    min-width: 64px;
+   height: 100vh;
+
+
+}
+#divthongtin i{
+    color: #ffffff;
+    background-color: #0091ff;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+#divthongtin div{
+    cursor: pointer;
+
+}
+#thongtintren{
+    background-color: #0091ff;
+    padding-top: 32px;
+}
+#thongtintren div{
+    
+    background-color: #0091ff;
+   height: 66px;
+   width: 64px;
+}
+#thongtintren div:hover{
+    background-color:#4f8aed ;
+}
+
+#thongtinduoi{
+    margin-top: 123px;
+}
+#thongtinduoi div:hover{
+    background-color:#4f8aed ;
+    
+}
+
+#divthongduoi div {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#thongtinduoi div{
+    background-color: #0091ff;
+   height: 66px;
+   width: 64px;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+    left: 5%;
+    width: 23%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+#taikhoan :hover{
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.388);
+    user-select: none;
+}
+
+#divlistban{
+    background-color: #ffffff;
+    min-width: 344px;
+    height: 100vh;
+    animation: smooth linear 0.3s;
+    display: block;
+
+}
+
+#table1{
+    position: relative;
+    z-index: 1;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  lightgray;
+    width: 68%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+#title{
+    background-color: #ffffff;
+    height: 10vh;
+    text-align: center;
+    border: 0.8px solid  lightgray;
+    display: flex;
+    align-items: center;
+
+ 
+
+
+}
+#titleavatar{
+    width:48px;
+    height:48px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#baoten{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 5px;
+
+ 
+}
+#chat{
+    height: 7vh;
+    text-align: center;
+    border: 1px solid  lightgray;
+}
+#infoInput{
+
+    position: absolute;
+    height: 58px;
+    width: 77%;
+    bottom: 0; 
+    
+      
+}
+#valueInputForm {
+    border: 0.5px solid #fff !important;
+    background-color: #ffffff;
+    position: relative;
+    height: calc(100vh - 85.3vh);
+    
+}
+#spaceChat{
+    background-color:rgb(238, 234, 234);
+    overflow-y: scroll;
+    border: 0.5px solid  #e6e7eb;
+    height: 75.3vh;
+    animation: smooth linear 0.6s;
+
+    
+}
+@keyframes smooth{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.avatar{
+    background: linear-gradient(225deg, rgb(0, 186, 192), rgb(242, 164, 184));
+    border-radius: 100%;
+    border: 0.5px solid white;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 48px;
+    cursor: pointer;
+    font-weight: bold;
+  
+    
+    
+}
+#valueInputForm i{
+    background-color: white;
+    color: rgb(0, 132, 255);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 8px;
+    border-top: 1px solid blue;
+    padding-top: 19px;
+}
+
+#valueInputForm button{
+    border: 0;
+    border-radius: 100px;
+}
+#valueInputForm {
+display: flex;
+align-items: flex-end;
+width: 100%;
+}
+#valueInputForm span{
+    background-color: white;
+    border-top: 1px solid blue;
+    padding-top: 9px;
+    min-width: 20px;
+ 
+}
+#plubss{
+    margin-left: 76%;
+    padding-left: 35px;
+}
+#valueInputForm input{
+    
+    flex:1 1 auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+    padding: 20px;              
+    border: white;
+    border-top: 1px solid blue;
+    background-color: white;
+    outline: none;
+    width: 75%;
+    height: 21px;
+
+   
+}
+.friend{
+ border-bottom: 1px solid lightgray;
+
+}
+::-webkit-scrollbar{
+    
+    width: 0.1px;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+::-webkit-scrollbar-thumb{
+    max-height: 10px;
+    background-color: rgba(128, 128, 128, 0.495);
+    border-radius: 5px;
+}
+
+
+.contentMe{
+cursor: pointer;
+display: flex;
+word-break: break-all;
+max-width: max-content;
+text-align: justify;
+min-width: 60px;
+flex-direction: row-reverse;
+user-select: text;
+font-size: .9375rem;
+}
+#contentMe{
+ background-color: #e5efff;  
+ box-shadow: 0 1px 2px lightgray ;
+ position: relative;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    max-width: 45%;
+    margin-right: 5px;
+}
+.nameperson{
+    display: flex;
+    flex-direction: row-reverse
+}
+.contentBotCha{
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+margin: 5px;
+flex-direction: row;
+}
+.contentMeCha{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin: 5px;
+}
+#contentBoss{
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px lightgrey;
+    position: relative;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    max-width: 45%;
+    margin-left: 5px;
+}
+.contentBoss{
+    display: flex;
+    cursor: pointer;
+
+    word-break: break-all;
+    max-width: max-content;
+    text-align: justify;
+    min-width: 60px;
+
+    user-select: text;
+    font-size: .9375rem;
+
+}
+.time{
+    display: flex;
+    font-size: .8125rem;
+    color: gray;
+    margin-top: 5px;
+}
+.time1{
+    display: flex;
+    font-size: .8125rem;
+    color: gray;
+    margin-top: 5px;
+    flex-direction: row-reverse;
+}
+#btnChat{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#btnChat2{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#btnChat:hover{
+    font-size:35px;
+}
+#namedn{
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 5px;
+    margin-top: 10px;
+    background-color:#ffffff ;
+   
+}
+
+#divlistban{
+    display: flex;
+    flex-direction: column;
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    
+}
+#seacH{
+    min-width: 250px;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#seacH i{
+    position: absolute;
+    top:25px;
+    left: 90px;
+    color:gray;
+    
+}
+#addFriend{
+    
+    position:relative;
+    top:20px;
+    margin-left: 10px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    color: gray;
+}
+.addFriend{
+    color: gray;
+    background-color: gray;
+}
+#addFriend i{
+    text-align: center;
+    margin-left: 5px;
+    color: gray;
+}
+#addFriend:hover{
+background-color: #eeeff2;
+cursor: pointer;
+border-radius: 5px;
+}
+#tatca{
+    border-bottom: 1px solid #4f8aed;
+    margin-top:20px;
+   
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#4f8aed;
+    height: 3vh;
+}
+.friend{
+    display: flex;
+    min-height: 73px;
+    padding-left: 10px;
+    width: 100%;
+}
+.friend:hover{
+      background-color: rgba(211, 211, 211, 0.3);  
+      cursor: pointer;
+}
+.friend1{
+    display: flex;
+    height: 74px;
+    padding-left: 10px;
+    width: 100%;
+}
+.friend1:hover{
+      background-color: #e8efff;  
+      cursor: pointer;
+}
+.lastChat{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+
+    
+
+}
+.lastChat1{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+    
+}
+#listChating{
+    display: flex;
+    flex-direction:column ;
+    animation: smooth linear 0.3s;
+    min-width: 100%;
+    height: 89vh;
+    overflow-y: scroll;
+}
+.modal__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal__inner input{
+    height: 54px;
+    border: none;
+    min-width: 250px;
+    outline: none;
+}
+#headAdd{
+    width: 100%; 
+    height: 50px;
+    display: flex;
+   
+    
+}
+#headAddi{
+    margin-top: 14px;
+    margin-left: 220px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+#listRecommet{
+    min-width: 100%;
+    overflow-y: scroll;
+    height: 300px;
+    
+}
+
+#btnketban{
+    min-width: 25%;
+    margin-top: 22px;
+}
+#btnketban > div {
+    margin:5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-right:20px;  
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;
+}
+#carouselExampleInterval{
+    height: 75.3vh;
+}
+#table{
+    position: relative;
+    z-index: 2;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  lightgray;
+    width: 68%;
+    height:calc(100vh + 20px) ;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+#chaomung{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+#table img{
+    margin-top: 50px;
+    height: 40vh;
+    margin-bottom: 20px;
+
+}
+#chuxanh{
+    color: blue;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+#emailchati{
+    color: gray;
+}@media only screen and (max-width:2000px){
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 10px;
+        height: 52px;
+        align-items: flex-end;
+        font-size: 10px;
+     
+    }
+    #spaceChat{
+        width: 79%;
+    }
+    #plubss{
+        margin-left: 71%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 69%;
+        height: 21px;
+    
+       
+    }
+
+   #table1{
+    min-width:calc(100% - 64px);
+    animation: smooth .5s;
+
+   }
+   #table{
+    min-width:calc(100% - 64px);
+    animation: smooth .5s;
+
+   }
+   #contable{
+   position: relative;
+   left: -200px;
+   text-align: center;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    max-width: 10px;
+    height: 100vh;
+
+}
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 0%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 30%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+ 
+    width: 20%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+#divthongtin{ 
+    background-color: #0091ff;
+    min-width: 64px;
+   height: 100vh;
+
+
+}
+#divthongtin i{
+    color: #ffffff;
+    background-color: #0091ff;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+#divthongtin div{
+    cursor: pointer;
+
+}
+
+
+
+}
+@media only screen and (max-width:1280px){
+    #yourself{
+        display: none;
+    }
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 10px;
+        height: 52px;
+        align-items: flex-end;
+        font-size: 10px;
+     
+    }
+    #spaceChat{
+        width: 71.5%;
+    }
+    #plubss{
+        margin-left: 62%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 62%;
+        height: 21px;
+    
+       
+    }
+
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    max-width: 10px;
+    height: 100vh;
+
+}
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 0%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 30%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+ 
+    width: 20%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+#divthongtin{ 
+    background-color: #0091ff;
+    min-width: 64px;
+   height: 100vh;
+
+
+}
+#divthongtin i{
+    color: #ffffff;
+    background-color: #0091ff;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+#divthongtin div{
+    cursor: pointer;
+
+}
+
+
+
+}
+@media only screen and (max-width:1024px){
+
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 10px;
+        height: 52px;
+        align-items: flex-end;
+        font-size: 10px;
+     
+    }
+    #spaceChat{
+        width: 64%;
+    }
+    #plubss{
+        margin-left: 50%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 51%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    max-width: 10px;
+    height: 100vh;
+
+}
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 0%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 30%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+ 
+    width: 20%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+#divthongtin{ 
+    background-color: #0091ff;
+    min-width: 64px;
+   height: 100vh;
+
+
+}
+#divthongtin i{
+    color: #ffffff;
+    background-color: #0091ff;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+#divthongtin div{
+    cursor: pointer;
+
+}
+
+
+
+}
+ @media only screen and (max-width:912px) {
+    #listRecommet {
+        height: 215px;
+    }
+
+    #yourself{
+        display: block;
+    }
+    #table{
+     display: none;
+    }
+    #footerlistban{
+        border-top: 1px solid lightgray;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(239, 232, 232);
+        height: 50px;
+        bottom: 0;
+       
+        display: flex !important;
+    
+    }
+    #footerlistban i{
+        
+        font-size: 25px;
+        margin-top: 14px;
+       
+    
+    }
+    #footerlistban i:hover{
+       animation: bigger ease 0.2s forwards; 
+    }
+    #tronchat{
+        
+        
+        position: fixed;
+        left: 50px;
+        border-radius:200px ;
+        
+    }
+    #tronchat:hover{
+        color: #0091ff;
+        animation:lantran1 linear .2s forwards
+
+    
+    }
+    #tronuser{
+      
+        position: fixed;
+        right: 50px;
+        border-radius:200px ;
+    }
+    
+    #tronuser:hover{
+        color: #0091ff;
+        animation:lantran1 linear .2s forwards;
+
+        
+    
+    
+    }
+ 
+
+    @keyframes lantran1{
+        to{
+            
+            margin:0 30%;
+            
+        }
+        }
+    
+    @keyframes bigger{
+        from{
+            font-size: 20px;
+        }
+        to{
+            font-size: 35px;
+        }
+    }
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 20px;
+        height: 91px;
+        align-items: flex-end;
+        
+     
+    }
+ 
+    .bonl{
+        border-bottom: 0.5px solid lightgray;
+    }
+
+    #valueInputForm i {
+      align-self: center;
+    }
+    #valueInputForm {
+        border: 0.5px solid lightgray;
+        background-color: #ffffff;
+        position: fixed;
+        max-height: 65px;
+        bottom: 0;
+    }
+    
+        #plubss{
+            margin-left: 42%;
+            padding-left: 0px;
+        }
+        #valueInputForm input{
+        
+            flex:1 1 auto;
+            word-wrap: break-word;
+            word-break: break-all;
+            text-align: justify;
+            padding: 20px;              
+            border: white;
+            border-top: 1px solid blue;
+            background-color: white;
+            outline: none;
+            max-width: 40%;
+            height: 60px;
+        
+           
+        }
+       #table{
+        display: none;
+       }
+       #table1{
+        min-width:calc(100% - 64px);
+       }
+       #divlistban{
+        background-color: #ffffff;
+        width: calc(100% - 64px );
+        height: 100vh;
+    
+    }
+    #divlistban{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #seachFriends{
+        display: flex;
+        height: 55px;
+        width: 100%;
+    }
+    #seacH{
+        width: 90%;
+    }
+    #seacH input{
+        margin-top: 17px;
+        margin-left: 15px;
+    
+        min-width: 90%;
+        height: 32px;
+        background-color: #eeeff2;
+        border-radius: 5px;
+        border: none;
+        padding-left: 33px;
+        outline: none;
+    }
+    #spaceChat{
+        background-color:rgb(238, 234, 234);
+        overflow-y: scroll;
+        border: 0.5px solid  #e6e7eb;
+        height: 75.3vh;
+        width: 60%;
+ 
+        
+        
+    }
+    #taikhoan{
+    
+        border-radius: 4px;
+        position: fixed;
+        background-color: #ffffff;
+        left: 7%;
+        width: 30%;
+        top: 8%;
+        height: 162px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    }
+    #taikhoan div{
+        user-select: none;
+        background-color: #ffffff;
+    
+    }
+    
+    
+    }
+@media only screen and (max-width:820px){
+
+    #table1{
+     min-width:calc(100% - 64px);
+    }
+    #divlistban{
+     background-color: #ffffff;
+     width: calc(100% - 64px );
+     height: 100vh;
+ 
+ }
+ #divlistban{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+ }
+ #seachFriends{
+     display: flex;
+     height: 55px;
+     width: 100%;
+ }
+ #seacH{
+     width: 60%;
+ }
+ #seacH input{
+     margin-top: 17px;
+     margin-left: 15px;
+ 
+     min-width: 10%;
+     height: 32px;
+     background-color: #eeeff2;
+     border-radius: 5px;
+     border: none;
+     padding-left: 33px;
+     outline: none;
+ }
+ #plubss{
+    margin-left: 35%;
+    padding-left: 0px;
+}
+#valueInputForm input{
+
+    flex:1 1 auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+    padding: 20px;              
+    border: white;
+    border-top: 1px solid blue;
+    background-color: white;
+    outline: none;
+    max-width: 32.5%;
+    height: 60px;
+
+   
+}
+ #spaceChat{
+    width: 55%;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+    left: 8%;
+    width: 20%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+ 
+ 
+ }
+@media only screen and (max-width:800px){
+    #plubss{
+        margin-left: 75%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 70%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 90%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 90%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:768px){   
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 20px;
+        height: 52px;
+        align-items: flex-end;
+        
+     
+    }
+    #spaceChat{
+        width: 100%;
+    }
+    #plubss{
+        margin-left: 78%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 75%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    min-width: 100%;
+    height: 100vh;
+
+}
+
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 80%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 90%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+    left: 8.5%;
+    width: 50%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+
+}
+@media only screen and (max-width:670px){
+
+    #tatca{
+        display: none;
+    }
+    #plubss{
+        margin-left: 67%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 60%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 90%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 90%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:540px){
+    #valueInputForm span{
+        background-color: white;
+        border-top: 1px solid blue;
+        padding-top: 9px;
+        min-width: 20px;
+        height: 52px;
+        align-items: flex-end;
+        
+     
+    }
+    #spaceChat{
+        width: 100%;
+    }
+    #plubss{
+        margin-left: 67%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 65%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:calc(100% - 64px);
+   }
+   #divlistban{
+    background-color: #ffffff;
+    min-width: 100%;
+    height: 100vh;
+
+}
+
+#seachFriends{
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+#seacH{
+    width: 70%;
+}
+#seacH input{
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 32px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+#taikhoan{
+    
+    border-radius: 4px;
+    position: fixed;
+    background-color: #ffffff;
+    left: 12%;
+    width: 50%;
+    top: 8%;
+    height: 162px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+#taikhoan div{
+    user-select: none;
+    background-color: #ffffff;
+
+}
+
+}
+@media only screen and (max-width:600px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+#addFriend i{
+ color: #fff;
+}
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:25px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 79%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 74%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 5%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:580px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:25px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+      
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 79%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 72%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 5%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:517px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:25px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 79%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 72%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 6%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:464px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:25px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 75%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 68%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+    animation:  table linear 1s ;
+   }
+   @keyframes table {
+     from{
+        opacity: 0;
+     }
+     to{
+        opacity: 1;
+     }
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 7%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:416px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:25px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 72%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 63%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 7%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 80%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+}
+
+
+}
+@media only screen and (max-width:340px){
+    #title{
+        background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+        height: 90px;
+        text-align: center;
+        display: flex;
+        color: #fff;
+    
+     
+    
+    
+    }
+    #addFriend{
+    
+        position:relative;
+        top:20px;
+        margin-right:0px ;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    #emailchati{
+        color: #fff;
+    }
+    #arowleft{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 0 15px;
+        padding-left: 20px;
+    }
+    #divthongtin{
+        display: none;
+    }
+    #plubss{
+        margin-left: 71%;
+        padding-left: 0px;
+    }
+    #valueInputForm input{
+    
+        flex:1 1 auto;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: justify;
+        padding: 20px;              
+        border: white;
+        border-top: 1px solid blue;
+        background-color: white;
+        outline: none;
+        max-width: 62%;
+        height: 21px;
+    
+       
+    }
+   #table{
+    display: none;
+   }
+   #table1{
+    min-width:100%;
+    border: none;
+   }
+   #divlistban{
+    background-color: #ffffff;
+    width: calc(100% - 64px );
+    height: 100vh;
+
+}
+#divlistban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#seachFriends{
+    background-image: linear-gradient(to right,#5091ff , rgb(94, 156, 214));
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+#seacH{
+    position: relative;
+    max-width: 10%;
+    height: 100%;
+}
+
+#seacH i{
+    top: 27px;
+position: absolute;
+left: 9%;
+color:gray;
+    
+}
+#seacH input{
+
+    margin-top: 17px;
+    margin-left: 15px;
+
+    min-width: 60%;
+    height: 35px;
+    background-color: #eeeff2;
+    border-radius: 5px;
+    border: none;
+    padding-left: 33px;
+    outline: none;
+    
+}
+
+
+}
+
+
+
+#yourself{
+    animation: smooth linear 0.3s;
+    width: 100%;
+    height: 89vh;
+}
+.avatar{
+    background: linear-gradient(225deg, rgb(0, 186, 192), rgb(242, 164, 184));
+    border-radius: 100%;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 48px;
+    cursor: pointer;
+    font-weight: bold;
+  
+    
+    
+}
+#bangxinchao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+    width: 362px;
+    height: 255px;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 7px 4px 3px lightgray;
+    background-color: #fff;
+}
+#mauxinh img{
+    height: 64px;
+}
+#avatarboth{
+   position: relative;
+   margin-top: -50px;
+   margin-bottom:20px ;
+}
+#banvauser{
+    font-weight: 600;
+    margin-top: 14px;
+    font-size: 1rem;
+}
+#textgt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+#iconhello img{
+    width: 85px;
+    height: 85px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+ 
+ 
+
+
+

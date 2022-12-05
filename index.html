@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zalo Wed</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.20.0/dist/axios.min.js"></script>
+    <script src="https://cdn.stringee.com/sdk/web/2.2.1/stringee-web-sdk.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/icons.css" />
+    <link rel="stylesheet" href="./css/chat.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/table.css">
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <div id="loading" style="display:none ;">
+    <div id="Zalo">Zalo</div>
+    <div class="loadingio-spinner-rolling-5bl2gnd1pkj">
+      <div class="ldio-g6wh5xr59iq">
+        <div></div>
+      </div>
+    </div>
+    <div style="color: rgb(92, 88, 88);">Đang tải dữ liệu...</div>
+  </div>
+  <div id="loadinglogin" style="display:none ;">
+    <div id="Zalo">Zalo</div>
+    <div class="loadingio-spinner-rolling-5bl2gnd1pkj">
+      <div class="ldio-g6wh5xr59iq">
+        <div></div>
+      </div>
+    </div>
+    <div style="color: rgb(92, 88, 88);">Đang đăng nhập...</div>
+  </div>
+</head>
+
+<input onabort="" style="display:none ;" id="onchange" type="text">
+
+  <body id="body"  style="background-image: url(./imge/thumbnail.jpg);background-color: #3362fc;clip-path: circle(79.3% at 50% 0);">
+    <div id="toast"></div>
+    <div style="display: none" id="tableIcon">
+      <div class="emotion">Icons</div>
+
+      <div id="icon2004">
+        <div onclick="innerInput()" class="icon">😁</div>
+        <div onclick="innerInput1()" class="icon">😂</div>
+        <div onclick="innerInput2()" class="icon">😎</div>
+        <div onclick="innerInput3()" class="icon">😍</div>
+        <div onclick="innerInput4()" class="icon">😘</div>
+        <div onclick="innerInput5()" class="icon">🥰</div>
+        <div onclick="innerInput6()" class="icon">🥶</div>
+        <div onclick="innerInput7()" class="icon">😡</div>
+        <div onclick="innerInput8()" class="icon">🤢</div>
+        <div onclick="innerInput9()" class="icon">😻</div>
+        <div onclick="innerInput10()" class="icon">❤️</div>
+        <div onclick="innerInput11()" class="icon">💕</div>
+        <div onclick="innerInput12()" class="icon">💞</div>
+        <div onclick="innerInput13()" class="icon">💓</div>
+        <div onclick="innerInput14()" class="icon">🤮</div>
+        <div onclick="innerInput15()" class="icon">🤧</div>
+        <div onclick="innerInput16()" class="icon">😷</div>
+        <div onclick="innerInput17()" class="icon">👌</div>
+        <div onclick="innerInput18()" class="icon">👏</div>
+        <div onclick="innerInput19()" class="icon">👋</div>
+        <div onclick="innerInput20()" class="icon">🤟</div>
+        <div onclick="innerInput21()" class="icon">👍</div>
+        <div onclick="innerInput22()" class="icon">🫰</div>
+        <div onclick="innerInput23()" class="icon">🪓</div>
+        <div onclick="innerInput24()" class="icon">⚧️</div>
+        <div onclick="innerInput25()" class="icon">🏆</div>
+        <div onclick="innerInput26()" class="icon">💵</div>
+        <div onclick="innerInput27()" class="icon">📂</div>
+        <div onclick="innerInput28()" class="icon">😇</div>
+        <div onclick="innerInput29()" class="icon">🩴</div>
+        <div onclick="innerInput30()" class="icon">👟</div>
+        <div onclick="innerInput31()" class="icon">💀</div>
+        <div onclick="innerInput32()" class="icon">🏀</div>
+        <div onclick="innerInput33()" class="icon">⚽</div>
+        <div onclick="innerInput34()" class="icon">💍</div>
+        <div onclick="innerInput35()" class="icon">🥳</div>
+        <div onclick="innerInput36()" class="icon">🔪</div>
+        <div onclick="innerInput37()" class="icon">🗡️</div>
+        <div onclick="innerInput38()" class="icon">⚔️</div>
+        <div onclick="innerInput39()" class="icon">🧀</div>
+      </div>
+
+    </div>
+
+    <div id="app1">
+    
+    </div>
+    
+
+    <div class="container as-text-centered" v-cloak id="app">
+
+
+      <div>
+        <button style="position:fixed ;z-index: 1;top: 20px;left: 50%;display: none;" id="is-primary" class="button is-primary" v-if="!room" @click="createRoom">
+          <i class="fa-solid fa-video"></i>
+        </button>
+
+        <button style="display: none;" class="button is-info" v-if="!room" @click="joinWithId">
+          Join Meeting
+        </button>
+
+        <button style="display: none;" class="button is-info" v-if="room" @click="publish(true)">
+          Share Desktop
+        </button>
+      </div>
+
+      <div style="display: none;" v-if="roomId" class="info">
+        <p>Bạn đang ở trong room <strong>{{roomId}}</strong>.</p>
+        <p>
+          Gửi link này cho bạn bè cùng join room nhé
+          <a v-bind:href="roomUrl" target="_blank">{{roomUrl}}</a>.
+        </p>
+        <p>Hoặc bạn cũng có thể copy <code>{{roomId}}</code> để share.</p>
+      </div>
+    </div>
+
+    <div style="height:100vh ;" class="container">
+      <div  id="videos"></div>
+    </div>
+
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-auth-compat.js"></script>
+  <script src="./js/conponent.js"></script>
+  <script src="./js/model.js"></script>
+  <script src="./js/controller.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/view.js"></script>
+  <script src="./css/index2.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script>
+
+  <script>
+    function toast({ title = "", message = "", type = "", duration = 3000 }) {
+      const main = document.getElementById("toast");
+      if (main) {
+        const autoRemoveId = setTimeout(() => {
+          main.removeChild(toast);
+        }, duration);
+        const toast = document.createElement("div");
+        toast.onclick = function (e) {
+          if (e.target.closest(".toast__close")) {
+            main.removeChild(toast);
+            clearTimeout(autoRemoveId);
+          }
+        };
+        const icons = {
+          success: "fa-solid fa-circle-check",
+          info: "fa-solid fa-circle-info",
+          error: "fa-solid fa-circle-exclamation",
+        };
+        const icon = icons[type];
+        //   const delay = (duration / 1000).toFixed(2)
+        toast.classList.add("toast", `toast--${type}`);
+        //   toast.style.animation =` slideInLeft ease .3s ,fadeout linear 1s ${delay}s forwards`;
+        toast.innerHTML = `
+          
+      <div class="toast__icon">
+        <i class="${icon}"></i>
+      </div>
+      <div class="toast__body">
+        <h3 class="toast__title">${title}</h3>
+        <p class="toast__msg">${message}</p>
+      </div>
+      <div class="toast__close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    
+          `;
+        main.appendChild(toast);
+      }
+    }
+
+    function ShowSuccessToast() {
+      toast({
+        title: "Success",
+        message: "Tài khoản đã được tạo thành công 👌",
+        type: "success",
+        duration: 6000,
+      });
+    }
+    function ShowErrorToast() {
+      toast({
+        title: "Error",
+        message: "Mật khẩu mới phải khác mật khẩu cũ",
+        type: "error",
+        duration: 4000,
+      });
+    }
+    function ShowInfoToast() {
+      toast({
+        title: "Thông báo",
+        message: "Thêm bạn thành công ",
+        type: "info",
+        duration: 4000,
+      });
+    }
+  </script>
+</html>
