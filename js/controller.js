@@ -543,7 +543,7 @@ function tranform() {
   if (Number(localStorage.getItem("width")) < 800 ) {
     console.log(1);
     document.getElementById("spaceChat1").setAttribute("style","padding-bottom:40px")
-    document.getElementById("spaceChat1").lastElementChild.setAttribute("style","margin-bottom:30px")
+    document.getElementById("spaceChat1").lastElementChild.setAttribute("style","margin-bottom:40px")
   }
   let listChat = document.getElementById("spaceChat1");
   listChat.scrollTop = listChat.scrollHeight;
