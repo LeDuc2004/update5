@@ -110,35 +110,4 @@ border-color: #2f86eb;
   position: fixed;
   }
   
-  #videos {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    position: fixed;
-    left: 20vh;
-  }
-  
-  #videos video {
 
-    padding: 0;
-    max-width: 500px;
-   
-    position: fixed;
-    top: 30vh;
-    left: 60vh;
-
-    
-  }
-  @media only screen and (max-width:912px) {
-    #videos video {
-        flex: 1 1 40%;
-        padding: 0;
-        max-width: 500px;
-       
-        position: fixed;
-        top: 30vh;
-        left: -10vh;
-    
-        
-      }
-  }

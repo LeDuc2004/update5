@@ -19,7 +19,7 @@ model.register = async (data,dataid) => {
       data.password
     );
     
-     
+
 
 
     ShowSuccessToast()

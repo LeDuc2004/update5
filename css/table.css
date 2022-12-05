@@ -44,23 +44,6 @@
 }
 .modal__body{
   --growth-from:0.1;
-  --growth-to:0.15;
-  --growth-to:0.2;
-  --growth-to:0.25;
-  --growth-to:0.3;
-  --growth-to:0.35;
-  --growth-to:0.4;
-  --growth-to:0.45;
-  --growth-to:0.5;
-  --growth-to:0.55;
-  --growth-to:0.6;
-  --growth-to:0.65;
-  --growth-to:0.7;
-  --growth-to:0.75
-  --growth-to:0.8;
-  --growth-to:0.85;
-  --growth-to:0.9;
-  --growth-to:0.95;
   --growth-to:1;
 position: fixed;
   width: 360px;

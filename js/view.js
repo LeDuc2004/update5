@@ -62,6 +62,7 @@ view.setScreenActive = (screenName) => {
       };
       let redirectRegister1 = document.getElementById("outregister");
       redirectRegister1.addEventListener("click", () => {
+        localStorage.setItem("bothEmail","loichaocuazalo")
         view.setScreenActive("registerPage");
       });
       break;

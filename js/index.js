@@ -10,6 +10,7 @@ window.onload = () => {
       loadinglogin()
       document.getElementById("yourself").style.display = "none"
       model.getChat()
+      upload()
       localStorage.setItem("bothEmail","loichaocuazalo")
       
      
@@ -18,6 +19,7 @@ window.onload = () => {
       document.getElementById("body").style = "background-image: url(./imge/thumbnail.jpg);background-color: #3362fc;"
       
       view.setScreenActive("loginPage");
+      
       
     }
     
