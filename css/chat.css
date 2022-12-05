@@ -600,6 +600,7 @@ border-radius: 5px;
 #emailchati{
     color: gray;
 }@media only screen and (max-width:2000px){
+    
     #valueInputForm span{
         background-color: white;
         border-top: 1px solid blue;
@@ -635,6 +636,7 @@ border-radius: 5px;
     }
 
    #table1{
+    
     min-width:calc(100% - 64px);
     animation: smooth .5s;
 
@@ -650,6 +652,7 @@ border-radius: 5px;
    text-align: center;
    }
    #divlistban{
+    display: block !important;
     background-color: #ffffff;
     max-width: 10px;
     height: 100vh;
@@ -792,9 +795,7 @@ border-radius: 5px;
        
     }
 
-   #table1{
-    min-width:calc(100% - 64px);
-   }
+
    #divlistban{
     background-color: #ffffff;
     max-width: 10px;
