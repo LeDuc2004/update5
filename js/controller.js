@@ -488,7 +488,7 @@ model.getChat()
 
    if (Number(localStorage.getItem("width")) <= 800) {
     document.getElementById("table1").style.display = ""
-    document.getElementById("divlistban").style.display = "none"
+    document.getElementById("divlistban").style.display = "none "
     
   }else{
     document.getElementById("table1").style.display = ""

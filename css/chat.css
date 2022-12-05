@@ -472,7 +472,7 @@ border-radius: 5px;
     height: 3vh;
 }
 .friend{
-    display: flex !important;
+    display: flex ;
     min-height: 73px;
     padding-left: 10px;
     width: 100%;
@@ -599,7 +599,8 @@ border-radius: 5px;
 }
 #emailchati{
     color: gray;
-}@media only screen and (max-width:2000px){
+}
+@media only screen and (max-width:2000px){
     
     #valueInputForm span{
         background-color: white;
@@ -652,7 +653,7 @@ border-radius: 5px;
    text-align: center;
    }
    #divlistban{
-    display: block !important;
+  
     background-color: #ffffff;
     max-width: 10px;
     height: 100vh;
