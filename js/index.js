@@ -10,6 +10,7 @@ window.onload = () => {
       loadinglogin()
       document.getElementById("yourself").style.display = "none"
       model.getChat()
+      document.getElementById("divlistban").style.display +""
       upload()
       localStorage.setItem("bothEmail","loichaocuazalo")
       

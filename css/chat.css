@@ -143,7 +143,7 @@
     min-width: 344px;
     height: 100vh;
     animation: smooth linear 0.3s;
-    display: block ;
+
 
 }
 
@@ -2138,7 +2138,7 @@ color:gray;
 
 }
 #divlistban{
-    display: flex;
+    display: flex ;
     flex-direction: column;
     width: 100%;
 }
