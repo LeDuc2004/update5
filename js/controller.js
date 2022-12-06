@@ -58,7 +58,7 @@ controller.register = (data, dataid) => {
 
 controller.login = (data) => {
   if (data.email == "") {
-    console.log(data.email);
+
     view.setErrorMessage("spanemail", "* Vui lòng điền email *");
   } else {
     view.setErrorMessage("spanemail", "");
@@ -109,7 +109,7 @@ function search() {
 }
 
   function btnChat(iconhi) {
-    console.log(2);
+
     
     document.getElementById("tableIcon").style.display = "none";
     let valueInput = document.getElementById("infoInput").value;
@@ -439,7 +439,7 @@ function blueborder1() {
   let txtSearch = valueInput.trim().toLowerCase();
   let listSunDOM = document.querySelectorAll(".friend1");
   listSunDOM.forEach((item) => {
-    console.log(1);
+
 
     if (item.innerText.trim().toLowerCase().includes(txtSearch)) {
       item.setAttribute("style", "display:");
@@ -551,7 +551,7 @@ function arowleft() {
 function tranform() {
   
   if (Number(localStorage.getItem("width")) < 800 ) {
-    console.log(1);
+
     document.getElementById("spaceChat1").setAttribute("style","padding-bottom:40px")
     document.getElementById("spaceChat1").lastElementChild.setAttribute("style","margin-bottom:45px")
   }
@@ -607,7 +607,7 @@ function hosocuaban() {
 
 }
 function webpc1() {
-  console.log(1);
+
   btnChat(`<div ><img style="width: 85px;height: 85px;" src="./imge/webpc (1).png" alt=""></div>`)
 }
 function webpc2() {

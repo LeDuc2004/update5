@@ -76,7 +76,7 @@ model.login = async (data) => {
 model.saveChat = (data, dataname,mltime, time ,bothEmail,bothEmailReverse,iconhi) => {
 
   const firestoreQueries = async () => {
-console.log(dataname);
+
   let checkMassage = {
     message: {
       mltime,
@@ -92,7 +92,6 @@ console.log(dataname);
     },
   };
 
-  console.log(checkMassage.message.content.iconhi);
 
 
 
