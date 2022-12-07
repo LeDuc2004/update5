@@ -49,7 +49,7 @@ model.register = async (data,dataid) => {
       displayName: data.username,
       
     });
-    dataUser = auth.currentUser.displayName;
+
 
     view.dataUser(dataUser);
   } catch (error) {

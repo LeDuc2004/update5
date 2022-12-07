@@ -281,16 +281,7 @@ document.querySelectorAll(".lastChat").forEach((e)=>{
   arraylist.push(e.innerText)
   
 })
-// let arraylist1 =[]
-// for (let i = 0; i < arraylist.length-1; i++) {
-//   for (let j = i+1; j < arraylist.length; j++) {
-//     if (arraylist[i] == arraylist[j]) {
-//       arraylist1.push(arraylist[i])
-//     }
-//   }
-  
-// }
-// console.log(arraylist1);
+
 
 
   document.querySelectorAll(".lastChat").forEach((e)=>{

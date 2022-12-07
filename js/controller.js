@@ -464,6 +464,16 @@ function blueborder() {
 }
 function takeInfoObj(email, i,name,nameuser) {
 
+  $(window).resize(function(){
+ 
+ 
+    var width = $(window).width();
+  localStorage.setItem("width",`${width}`)
+  
+  
+     
+  }); 
+  let width = Number(localStorage.getItem("width"))
 document.getElementById("avatarcruser").innerHTML = auth.currentUser.displayName.charAt(0)
 document.getElementById("avataruser").innerHTML = name
 document.getElementById("vauser").innerHTML = nameuser
@@ -486,7 +496,7 @@ model.getChat()
 
 
 
-   if (Number(localStorage.getItem("width")) <= 800) {
+   if ( width <= 800) {
     document.getElementById("table1").style.display = ""
     document.getElementById("divlistban").style.display = "none "
     
