@@ -46,6 +46,20 @@
     margin: 0 10px;
     cursor: pointer;
 }
+#iconhello img:hover{
+
+animation: taora linear .5s forwards;
+
+}
+@keyframes taora{
+    from{
+        
+        background-color: #fff;
+    }
+    to{
+        background-color: lightgray;
+    }
+}
 
 #arowleft{
     display: none;
