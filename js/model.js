@@ -37,7 +37,7 @@ model.register = async (data,dataid) => {
         
 
       } catch (error) {
-        console.log(error);
+       
       }
     };
     

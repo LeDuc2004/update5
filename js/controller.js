@@ -59,9 +59,9 @@ controller.register = (data, dataid) => {
 controller.login = (data) => {
   if (data.email == "") {
 
-    view.setErrorMessage("spanemail", "* Vui lòng điền email *");
+    view.setErrorMessage("spanemail1", "* Vui lòng điền email *");
   } else {
-    view.setErrorMessage("spanemail", "");
+    view.setErrorMessage("spanemail1", "");
   }
   if (data.password == "") {
     view.setErrorMessage("spanmk", "* Vui lòng điền mật khẩu *");

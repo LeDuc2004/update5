@@ -59,7 +59,7 @@ conponent.loginPage = `
     <div >
         <i  style="cursor:pointer ;top: 195px;" class="fa-solid fa-envelope"></i>
         <input name="email"  id="email"  type="text" placeholder="email..."><br>
-        <em><span  style="color:red;top:228px;left:80px" id="spanemail"></span></em>
+        <em><span  style="color:red;top:228px;left:80px" id="spanemail1"></span></em>
     </div>
     <div >
         <i  style="cursor:pointer ;top: 262px;" id="icon" onclick="showPassword()" class="fa-solid fa-eye"></i>     
