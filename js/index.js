@@ -30,11 +30,8 @@ window.onload = () => {
   firebase
     .firestore()
     .collection("listMessage")
-
     .onSnapshot(() => {
-      
       model.getChat()
-     
     });
     firebase
     .firestore()
