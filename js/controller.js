@@ -33,15 +33,19 @@ function validateEmail(email1) {
 }
 
 controller.register = (data, dataid) => {
+  let dayso = document.getElementById("mk").value.split("")
+
+  if (dayso.length < 6) {
+    console.log(1);
+    view.setErrorMessage("spanmk", "* Vui lòng điền mật khẩu 6 số *")
+  }
   data.firstName == "" || data.lastName == ""
     ? view.setErrorMessage("spantk", "* Vui lòng điền tên đăng nhập *")
     : view.setErrorMessage("spantk", "");
-  data.email == ""
+  data.email == "" 
     ? view.setErrorMessage("spanemail", "* Vui lòng điền email *")
     : view.setErrorMessage("spanemail", "");
-  data.password == ""
-    ? view.setErrorMessage("spanmk", "* Vui lòng điền mật khẩu *")
-    : view.setErrorMessage("spanmk", "");
+
   data.confirmPassword !== data.password
     ? view.setErrorMessage("spanremk", "* Mật khẩu nhập lại không đúng *")
     : view.setErrorMessage("spanremk", "");
@@ -51,6 +55,7 @@ controller.register = (data, dataid) => {
     data.password !== "" &&
     data.confirmPassword !== ""
     && data.password == data.confirmPassword 
+    && dayso.length >= 6
   ) {
     model.register(data, dataid);
   }
