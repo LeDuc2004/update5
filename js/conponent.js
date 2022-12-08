@@ -145,7 +145,7 @@ conponent.wellcomePage = `
         
         
         
-        <div id="divlistban"  onclick="clickevw()">
+        <div id="divlistban" style= "display:block"  onclick="clickevw()">
         
         <div id="seachFriends">
           <div id="seacH"><input id="blueborder" type="text" placeholder="Tìm kiếm" oninput="blueborder()" ><i class="fa-solid fa-magnifying-glass"></i></div>

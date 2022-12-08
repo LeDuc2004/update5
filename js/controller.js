@@ -483,6 +483,7 @@ document.getElementById("namechati").innerHTML = nameuser
 document.getElementById("emailchati").innerHTML = email
 document.getElementById("titleavatar").innerHTML = name
 
+
     let getfriend = document.querySelectorAll(".friend");
   getfriend.forEach((item) => {
     item.setAttribute("style", "background-color:");
@@ -504,8 +505,18 @@ model.getChat()
     document.getElementById("table1").style.display = ""
     document.getElementById("divlistban").style.display = ""
   }
+  
+  if (Number(localStorage.getItem("width")) <= 800) {
+    document.getElementById("table1").style.display = "none"
+    document.getElementById("divlistban").style.display = ""
+    
+  }else{
+    document.getElementById("table1").style.display = ""
+    document.getElementById("divlistban").style.display = ""
+  }
 
 }
+
 function upload() {
   if (Number(localStorage.getItem("width")) <= 800) {
     document.getElementById("table1").style.display = "none"
