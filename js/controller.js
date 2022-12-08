@@ -505,7 +505,7 @@ model.getChat()
     document.getElementById("table1").style.display = ""
     document.getElementById("divlistban").style.display = ""
   }
-  
+
   if (Number(localStorage.getItem("width")) <= 800) {
     document.getElementById("table1").style.display = "none"
     document.getElementById("divlistban").style.display = ""
@@ -527,6 +527,7 @@ function upload() {
     document.getElementById("divlistban").style.display = ""
   }
 }
+setInterval(upload, 1000);
 
 
 
