@@ -462,8 +462,6 @@ function blueborder() {
     }
   });
 }
-function takeInfoObj(email, i,name,nameuser) {
-
   $(window).resize(function(){
  
  
@@ -473,6 +471,9 @@ function takeInfoObj(email, i,name,nameuser) {
   
      
   }); 
+function takeInfoObj(email, i,name,nameuser) {
+
+
   let width = Number(localStorage.getItem("width"))
 document.getElementById("avatarcruser").innerHTML = auth.currentUser.displayName.charAt(0)
 document.getElementById("avataruser").innerHTML = name

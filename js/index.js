@@ -40,7 +40,7 @@ window.onload = () => {
     .onSnapshot((docs) => {
 
       model.getIdName()
-     
+      upload()
     });
   firebase
     .firestore()
@@ -48,5 +48,6 @@ window.onload = () => {
     .doc("vGtlozg2ODnWYyeMp04E")
     .onSnapshot((doc) => {
       view.rederListFriend(doc.data().idNamechokhac);
+      upload()
     });
 };
