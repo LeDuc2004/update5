@@ -32,6 +32,7 @@ window.onload = () => {
     .collection("listMessage")
     .onSnapshot(() => {
       model.getChat()
+      upload()
     });
     firebase
     .firestore()
